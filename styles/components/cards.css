@@ -1,0 +1,30 @@
+.cards {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2.6fr .4fr;
+    box-shadow: 0px 0px 20px #dedede;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.img__container {
+    grid-column: 1 / 2;
+    height: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img__container > img {
+    width: 100%;
+    height: auto;
+}
+
+.content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

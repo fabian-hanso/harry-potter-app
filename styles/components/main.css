@@ -1,0 +1,19 @@
+.main {
+    width: 100%;
+    height: auto;
+    padding: 100px 10px;
+    background-color: #fcfcfc;;
+}
+
+.home {
+    display: none;
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+}
+
+.favorites {
+    display: none;
+}
